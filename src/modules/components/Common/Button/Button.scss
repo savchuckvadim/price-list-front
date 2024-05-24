@@ -1,0 +1,23 @@
+@import '../../../styles/typography';
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+
+.button {
+    min-width: 100%;
+    min-height: 100%;
+    background: rgb(246, 233, 243);
+    color: $black-text;
+    border: 0.5px solid $blue-color;
+    border-radius: $border-base ;
+    cursor: pointer;
+}
+
+.button:hover {
+    @include button__gradient();
+    // background: $blue-color;
+    // background: linear-gradient(45deg, rgba(198, 176, 200, 1) 0%, rgb(119, 76, 237, 0.1) 50%, rgb(108, 192, 241) 100%);
+    // animation: gradient 5s ease infinite;
+    // background-size: 1500% 1500%;
+   
+}

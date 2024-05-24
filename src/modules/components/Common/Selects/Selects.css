@@ -1,0 +1,8 @@
+.selects__select__wrapper{
+    min-width: 100% !important;
+}
+
+#select{
+    padding-top: 11px !important;
+    padding-bottom: 2px !important;
+}

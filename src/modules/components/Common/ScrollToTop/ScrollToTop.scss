@@ -1,0 +1,70 @@
+.scroll-top-icon__wrapper {
+    cursor: pointer;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    /* justify-self: end; */
+    align-self: start;
+    justify-items: end !important;
+
+    align-items: end !important;
+    margin-top: 2vh;
+    margin-right: 4px;
+    // width: 100%;
+
+    max-height: 100%;
+    // padding: 12px;
+    position: sticky !important;
+    bottom: 25vh;
+    right: 10px;
+
+    // border: 1px solid rgb(160, 179, 179) !important;
+    // border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    // transition: opacity 0.5s ease, visibility 0.5s;
+    opacity: 0;
+    /* начальное состояние - невидимый */
+    visibility: hidden;
+    /* скрыть элемент */
+
+    transition-property: opacity, visibility,  display !important;
+    transition-duration: 0.5s !important;
+    transition-delay: 0.2s;
+
+}
+.scroll-top-icon__wrapper--visible {
+    
+    opacity: 1; /* полностью видимый */
+    visibility: visible; /* элемент виден */
+}
+@keyframes popIn {
+    0% { transform: scale(1); }
+    50% { transform: scale(2); }
+    100% { transform: scale(1); }
+}
+
+
+.scroll-icon {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.7s ease; /* Плавное изменение размера при наведении */
+}
+
+/* Стили для увеличения иконки при наведении */
+.scroll-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Стили для анимации появления */
+.scroll-icon--pop {
+    animation: popIn 0.5s ease;
+}
+
+@media (max-width: 780px) {
+    .scroll-top-icon__wrapper {
+        display: none;
+    }
+}

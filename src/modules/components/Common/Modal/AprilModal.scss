@@ -1,0 +1,10 @@
+@import '../../../styles/variables';
+
+.modal-backdrop.show {
+    opacity: 0.91 !important; /* Установите нужную прозрачность */
+    background-color: $btx-bg; /* Желаемый цвет фона, здесь красный */
+}
+
+.ap_modal__header{
+    height: 37px !important;
+}

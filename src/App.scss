@@ -1,0 +1,208 @@
+@import './modules/styles/reset.scss';
+@import './modules/styles/global.scss';
+
+
+html,
+body,
+#root {
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#root {
+  min-width: 100%;
+  overflow: auto;
+  position: relative;
+  // margin: 0 auto;
+
+}
+
+//  body{
+//     min-height: 100vh;
+//     min-height: 100vh;
+//     // display: flex;
+// }
+// #root{
+//     min-height: 100%;
+//     min-height: 100%;
+//     display: flex;
+// }
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+
+}
+
+*::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+// body,
+// h1,
+
+// h3,
+// h4,
+
+/* ul[class],
+ol[class], */
+// li,
+// figure,
+// figcaption,
+// blockquote,
+// dl,
+// dd {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// /* Выставляем основные настройки по-умолчанию для body */
+// body {
+//     min-height: 100vh;
+//     scroll-behavior: smooth;
+//     text-rendering: optimizeSpeed;
+//     // line-height: 1.5;
+// }
+
+// /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+// /* ul[class],
+// ol[class] {
+//     list-style: none;
+// } */
+
+// /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+// /* a:not([class]) {
+//     text-decoration-skip-ink: auto;
+// } */
+
+// /* Упрощаем работу с изображениями */
+// img {
+//     max-width: 100%;
+//     display: block;
+// }
+
+// /* Указываем понятную периодичность в потоке данных у article*/
+// article>*+* {
+//     margin-top: 1em;
+// }
+
+// /* Наследуем шрифты для инпутов и кнопок */
+// input,
+// button,
+// textarea,
+// select {
+//     font: inherit;
+
+// }
+
+// /* Удаляем все анимации и переходы для людей, которые предпочитают их не использовать */
+// /* @media (prefers-reduced-motion: reduce) {
+//     * {
+//         animation-duration: 1.5ms !important;
+//         animation-iteration-count: 1 !important;
+//         transition-duration: 0.01ms !important;
+//         scroll-behavior: smooth !important;
+//     }
+// } */
+
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//     min-width: 100%;
+//     font-family: 'Source Sans Pro' !important;
+
+// }
+
+
+
+
+
+// html:root {
+//     --background: 'black';
+//     --backgroundDark: 'rgba(37, 40, 45, 1)';
+//     --backgroundLight: 'white';
+//     --textColorGreyP: 'rgba(69, 74, 84, 1)';
+//     --textColorGreyH2: 'rgba(37, 40, 45, 1)';
+//     --textColorBlack: 'black';
+//     --textColorWhite: 'white';
+
+// }
+
+
+// p {
+//     /* margin-bottom: 1vh !important; */
+// }
+
+// body {
+//     font-family: 'Source Sans Pro' !important;
+//     padding: 0 !important;
+//     margin: 0 !important;
+// }
+
+// /* .complect__title {
+//     margin-top: 32px !important;
+//     display: block !important;
+// } */
+
+
+
+// h2 {
+//     /* margin: 8px; */
+//     margin-top: 32px !important;
+//     font-style: bold !important;
+//     font-size: 24px !important;
+//     /* color: var(--textColorGreyH2)  !important; */
+//     font-weight: 600 !important;
+// }
+
+// p {
+//     /* margin-top: 16px  !important; */
+//     font-style: normal !important;
+//     font-size: 14px !important;
+//     /* color: var(--textColorGreyP); */
+//     color: black;
+//     font-weight: 400 !important;
+// }
+
+// .app {
+//     background-color: black;
+//     transition-property: background-color, color;
+//     transition-duration: 2.5s;
+//     transition-delay: 0.1s;
+//     position: absolute;
+// }
+
+
+// .app__wrapperContent_god {
+//     min-height: 100vh;
+//     background-color: rgba(37, 40, 45, 1) !important;
+//     color: rgb(255, 255, 255) !important;
+
+//     transition-property: background-image, background-color, text-color, color, transform !important;
+//     transition-duration: 2.4s !important;
+//     transition-delay: 0.0s !important;
+//     /* transform: rotateZ(3600deg) !important;  */
+// }
+
+
+
+// .formControlOd {
+//     width: 100% !important;
+// }
+
